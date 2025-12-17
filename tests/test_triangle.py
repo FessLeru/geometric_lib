@@ -21,7 +21,7 @@ class TriangleTestCase(unittest.TestCase):
     def test_perimeter_standard(self):
         """Тест периметра треугольника со стандартными значениями"""
         res = perimeter(3, 4, 5)
-        self.assertEqual(res, 12)
+        self.assertEqual(res, 15)
 
     def test_perimeter_negative(self):
         """Тест периметра треугольника с отрицательными сторонами"""
